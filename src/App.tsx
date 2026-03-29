@@ -1,13 +1,17 @@
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';   // We'll do Hero next
+import ServicesSection from "./components/ServicesSection";
+import WhyHireMe from "./components/WhyHireMe";
+import './index.css';
 
-<link href="https://api.fontshare.com/v2/css?f[]=clash-display@400,500,600,700&display=swap" rel="stylesheet"></link>
 
 function App() {
   return (
     <>
       <Navbar />
       <Hero />
+      <ServicesSection />
+      <WhyHireMe />
       {/* Other sections will come later */}
     </>
   );

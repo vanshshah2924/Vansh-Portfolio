@@ -46,7 +46,11 @@ export default function HeroTop() {
 
       {/* ===== IMAGE ===== */}
       <motion.img
+<<<<<<< HEAD
         src="./IMG_3961.png"
+=======
+        src="public/images/IMG_3961.png"
+>>>>>>> 3102a4f (fix hero image and updates)
         alt="profile"
         className="absolute bottom-[-120px] left-.1/2 -translate-x-[45%] w-[600px] z-10 object-contain"
         animate={{ y: [0, -12, 0] }}

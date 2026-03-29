@@ -1,19 +1,19 @@
+/* ✅ FIRST — IMPORT FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600&display=swap');
+
+/* ✅ THEN TAILWIND */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600&display=swap');
-
+/* ✅ THEN YOUR CUSTOM CSS */
 body {
-  font-family: 'Inter', system_ui, sans-serif;
+  font-family: 'Inter', sans-serif;
 }
-
-.heading {
-  font-family: 'Space Grotesk', sans-serif;
-}
-
 /* Smooth scroll behavior */
 html {
   scroll-behavior: smooth;
 }
+
+
 

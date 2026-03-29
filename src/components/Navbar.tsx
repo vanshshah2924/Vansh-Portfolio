@@ -1,5 +1,5 @@
 // src/components/Navbar.tsx
-import React from 'react';
+"use client";
 
 const Navbar = () => {
   return (

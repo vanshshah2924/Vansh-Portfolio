@@ -1,4 +1,4 @@
-import React from "react";
+"use client";
 import { motion } from "framer-motion";
 
 export default function HeroTop() {
@@ -48,7 +48,7 @@ export default function HeroTop() {
       <motion.img
         src="/IMG_3961.PNG"
         alt="profile"
-        className="absolute bottom-[-120px] left-.1/2 -translate-x-[45%] w-[605px] z-10 object-contain"
+        className="absolute bottom-[-120px] left-.1/2 -translate-x-[45%] w-[600px] z-10 object-contain"
         animate={{ y: [0, -12, 0] }}
         transition={{ duration: 3, repeat: Infinity }}
       />
